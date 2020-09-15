@@ -84,7 +84,7 @@ export default class Boss extends Rect {
       else return
     }
 
-    this.ctx.drawImage(this.imgs[animationNum], this.x - camera.x, this.y - camera.y, this.width, this.height)
+    this.ctx.drawImage(this.imgs[this.animationNum], this.x - camera.x, this.y - camera.y, this.width, this.height)
   }
   
   move(dx, dy, camera) {
